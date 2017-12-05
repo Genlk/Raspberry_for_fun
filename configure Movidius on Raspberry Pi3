@@ -1,0 +1,19 @@
+1.CHECK YOUR SYSTEM
+______________________________________________________________________________
+Be sure your system is Raspbian Stretch (some  RsP is Raspbian Jessie)
+Do 
+$  sudo nano /etc/apt/sources.list
+replace the Jessie with Stretch
+... another will be write latter
+
+
+
+2.INSTALL CAFFE (this will take 5~6 hours )
+_______________________________________________________________________________
+flowing this guide https://github.com/leo2105/Caffe-installation-Raspberry-Pi-3
+
+pay attention to the protobuf install,just ignored that,use 
+
+$ pip install protobuf
+
+_______________________________________________________________________________
